@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(229, 226, 226);
+}
+
+.App {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#head{
+  display:inline-block;
+  margin-bottom: 30px;
+}
+
+h1{
+  display:inline-block;
+}
+
+input{
+  width: 40%;
+height: 30px;
+border-radius: 5%;
+}
+
+#bm{
+  display: inline-block;
+  height: 60px;
+  width: 200px;
+  background-color: gray;
+  color:white ;
+  margin-left: 100px;
+  border-radius: 5%;
+}
+ #search{
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  height: 36px;
+  border-radius: 25%;
+}
+
+ #images{
+  float: left;
+  width: 100%;
+  /* margin-left: 32%; */
+  margin-top: 10px;
+  /* grid-template-columns: repeat(3, 1fr) */
+} 
+
+#img{
+  /* content: "";
+  display: table;
+  clear: both; */
+  /* grid-template-columns: repeat(3, 1fr) */
+  float: left;
+  width: 33.10%;
+  /* margin-right: 2px; */
+  margin-left: 2px;
+ }
